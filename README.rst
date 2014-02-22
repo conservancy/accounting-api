@@ -69,6 +69,17 @@ on ``irc.freenode.net``.
     sudo apt-get update
     sudo apt-get install ledger
 
+~~~~~~~~~~~~~
+Debian wheezy
+~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+    # git python 3.3, virtualenvwrapper, sphinx (and related modules)
+    sudo aptitude install git-core python3.3 virtualenvwrapper sphinx python-sphinxcontrib-httpdomain python-flask python-flaskext.wtf  python3-sqlalchemy python-sqlalchemy-doc
+
+    # ledger 3
+    # Build this from upstream sources
 
 .. _usage:
 
